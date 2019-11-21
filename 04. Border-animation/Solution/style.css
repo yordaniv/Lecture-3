@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+a {
+    margin: 0.4em;
+    padding: 0.7em 1em;
+    outline: 5px rgba(99, 99, 185, 0.767) solid;
+    color: black;
+    transition: 0.5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+a:hover {
+    outline: 7px rgba(99, 99, 185, 0.767) solid;
+    transition: 0.5s ease;
+}
